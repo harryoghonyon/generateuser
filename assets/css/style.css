@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@font-face {
+  font-family: TT Hoves Reg;
+  src: url(../fonts/TT\ Hoves\ Pro\ Trial\ Regular.ttf);
+}
+@font-face {
+  font-family: TT Hoves Med;
+  src: url(../fonts/TT\ Hoves\ Pro\ Trial\ Medium.ttf);
+}
+.input-wrap {
+  padding-top: 0.8125rem;
+  padding-bottom: 0.8125rem;
+  padding-left: 1.5625rem;
+  padding-right: 18.6875rem;
+  background-color: #E9E9E9;
+  border-radius: 0.75rem;
+}
+
+.input-txt, .username {
+  font-size: 0.9375rem;
+  font-family: TT Hoves Reg;
+  color: #AEAEAE;
+  letter-spacing: -0.0625rem;
+  background: #E9E9E9;
+}
+
+.main-pad {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 3.5rem;
+}
+
+.generate-user-btn {
+  padding-left: 1.125rem;
+  padding-right: 1.125rem;
+  padding-top: 0.9375rem;
+  padding-bottom: 0.9375rem;
+  background-color: #999;
+  font-family: TT Hoves Reg;
+  font-size: 1.25rem;
+  letter-spacing: -0.0625rem;
+  border-radius: 0.9375rem;
+  color: #fff;
+}
+
+.generate-user-wrap {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.username {
+  color: #fff;
+}
+
+.user {
+  padding-left: 0.5625rem;
+  padding-right: 0.5625rem;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  background-color: #fff;
+}
+
+.user-wrap {
+  display: flex;
+  flex-direction: row;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,112 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@font-face {
+    font-family: TT Hoves Reg;
+    src: url(../fonts/TT\ Hoves\ Pro\ Trial\ Regular.ttf);
+}
+
+@font-face {
+    font-family: TT Hoves Med;
+    src: url(../fonts/TT\ Hoves\ Pro\ Trial\ Medium.ttf);
+}
+
+$font-reg: TT Hoves Reg;
+$font-med: TT Hoves Med;
+$letter-spacing: -0.0625rem;
+$inactive-btn-color: #999;
+$bark-color: #303030;
+$input-txt-color: #AEAEAE;
+$input-bg-color: #E9E9E9;
+$user-bg-color: #A8A8A8;
+$font-color-light: #fff;
+
+.input-wrap {
+    padding-top: 0.8125rem;
+    padding-bottom: 0.8125rem;
+    padding-left: 1.5625rem;
+    padding-right: 18.6875rem;
+    background-color: $input-bg-color;
+    border-radius: 0.75rem;
+}
+
+.input-txt {
+    font-size: 0.9375rem;
+    font-family: $font-reg;
+    color: $input-txt-color;
+    letter-spacing: $letter-spacing;
+    background: $input-bg-color;
+}
+
+.main-pad {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 3.5rem;
+}
+
+.generate-user-btn {
+    padding-left: 1.125rem;
+    padding-right: 1.125rem;
+    padding-top: 0.9375rem;
+    padding-bottom: 0.9375rem;
+    background-color: $inactive-btn-color;
+    font-family: $font-reg;
+    font-size: 1.25rem;
+    letter-spacing: $letter-spacing;
+    border-radius: 0.9375rem;
+    color: $font-color-light;
+}
+
+.generate-user-wrap {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.username {
+    @extend .input-txt;
+    color: $font-color-light;
+}
+
+.user {
+    padding-left: 0.5625rem;
+    padding-right: 0.5625rem;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    background-color: $font-color-light;
+}
+
+.user-wrap {
+    display: flex;
+    flex-direction: row;
+}
